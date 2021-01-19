@@ -1,0 +1,15 @@
+D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\DailyTool.exe.config
+D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\DailyTool.exe
+D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\DailyTool.pdb
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.csprojAssemblyReference.cache
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\MainWindow.g.cs
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\App.g.cs
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool_MarkupCompile.cache
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool_MarkupCompile.lref
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\MainWindow.baml
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.g.resources
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.Properties.Resources.resources
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.csproj.GenerateResource.cache
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.csproj.CoreCompileInputs.cache
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.exe
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.pdb
