@@ -40,7 +40,13 @@ namespace DailyTool
                     ref oMissing, ref oMissing, ref oMissing, ref oMissing);
                 doc.Activate();
 
-                object outputFileName = filename.ToString().Replace(".docx", ".pdf");
+            DateTimeOffset now = (DateTimeOffset)DateTime.UtcNow;  // using System;
+
+            string time = now.ToString("yyyyMMddHHmmssfff"); // 20180215082134547
+            
+
+
+            object outputFileName = filename.ToString().Replace(".docx", "_"+time+".pdf");
                 object fileFormat = WdSaveFormat.wdFormatPDF;
             ////////////////////
             progress.Report(75);
