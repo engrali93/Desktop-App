@@ -1,7 +1,6 @@
 D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\DailyTool.exe.config
 D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\DailyTool.exe
 D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\DailyTool.pdb
-D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.csprojAssemblyReference.cache
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\MainWindow.g.cs
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\App.g.cs
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool_MarkupCompile.cache
@@ -33,3 +32,4 @@ D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool_Content.g.cs
 D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\sound\Click.wav
 D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\sound\error.wav
 D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\sound\Windows Exclamation.wav
+D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.csprojAssemblyReference.cache
