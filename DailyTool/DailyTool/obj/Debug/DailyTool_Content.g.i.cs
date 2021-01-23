@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sound/click.wav")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sound/error.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sound/click_new.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sound/windows%20exclamation.wav")]
 
 

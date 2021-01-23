@@ -11,8 +11,9 @@
     Height="500"
     Background="#181735"
     ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
     WindowStyle="None"
-    mc:Ignorable="d" WindowStartupLocation="CenterScreen">
+    mc:Ignorable="d">
 
 
 

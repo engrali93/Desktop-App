@@ -19,26 +19,35 @@ namespace DailyTool.WinForm
         public successbox(string dir)
         {
             InitializeComponent();
+            new SoundPlayer(DailyTool.Properties.Resources.Windows_Exclamation).Play();
             locc = dir;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new SoundPlayer(".//sound/Click.wav").Play();
+            //var Clicksound = DailyTool.Properties.Resources.Click;
+            //new SoundPlayer(Clicksound).Play();
             Process.Start(@locc);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new SoundPlayer(".//sound/Click.wav").Play();
+            //var Clicksound = DailyTool.Properties.Resources.Click;
+            //new SoundPlayer(Clicksound).Play();
             Process.Start("explorer.exe","/select ,"+locc);
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            new SoundPlayer(".//sound/Click.wav").Play();
+            //var Clicksound = DailyTool.Properties.Resources.Click;
+            //new SoundPlayer(Clicksound).Play();
             Close();
+        }
+
+        private void successbox_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

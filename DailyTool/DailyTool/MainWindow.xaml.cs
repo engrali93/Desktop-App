@@ -12,11 +12,13 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using MahApps.Metro.Controls;
+
 using ControlzEx.Theming;
 using System.Diagnostics;
 using DailyTool.WinForm;
 using System.Media;
+using System.ComponentModel;
+
 
 namespace DailyTool
 {
@@ -25,11 +27,16 @@ namespace DailyTool
     /// </summary>
     public partial class MainWindow : Window
     {
+        
+      
         public MainWindow()
         {
             InitializeComponent();
+           
         }
+
         
+
         //Draging move
         private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -38,13 +45,15 @@ namespace DailyTool
                 DragMove();
             }
         }
+        
         // Exit BUtton
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(".//sound//Click.wav").Play();
+           
             Close();
         }
 
+        // link open
         private void WebProfile(object sender, RoutedEventArgs e)
         {
             NavigationWindow window = new NavigationWindow();
@@ -54,21 +63,28 @@ namespace DailyTool
             window.Source = source; window.Show();
 
         }
+        
+        
+        // New page
         private void new_page(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(".//sound//Click.wav").Play();
+            //var Clicksound = DailyTool.Properties.Resources.Click;
+            //new SoundPlayer(Clicksound).Play();
             MainWindow mw = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault(); //opening second WPF
             if (mw != null)
                 mw.Content = new converter();
         }
 
+
+        // aboput us portion
         private void about_us_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(".//sound//Click.wav").Play();
+           
             About about_us = new About();
             about_us.ShowDialog();
         }
 
+        // hyperlink handling 
         private void hyperlink_request_nav(object sender, RequestNavigateEventArgs e)
         {
             Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri));

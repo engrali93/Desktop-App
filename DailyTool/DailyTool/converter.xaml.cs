@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using MahApps.Metro.Controls;
+
 using ControlzEx.Theming;
 using System.Diagnostics;
 using System.Media;
@@ -38,7 +38,9 @@ namespace DailyTool
 
         private void open_file1(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(".//sound//Click.wav").Play();
+            // new SoundPlayer(".//sound//Click.wav").Play();
+            //var Clicksound = DailyTool.Properties.Resources.Click;
+            //new SoundPlayer(Clicksound).Play();
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Docx Files|*.docx";
             if (openFileDialog.ShowDialog() == true)
@@ -46,12 +48,14 @@ namespace DailyTool
                 string fileName = openFileDialog.FileName;
                 txtEditor.Text = fileName;
             }
-               
+
         }
 
         private void CloseButton_Click2(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(".//sound//Click.wav").Play();
+            // new SoundPlayer(".//sound//Click.wav").Play();
+            //var Clicksound = DailyTool.Properties.Resources.Click;
+            //new SoundPlayer(Clicksound).Play();
             Application.Current.Shutdown(110);
         }
 
@@ -62,26 +66,30 @@ namespace DailyTool
             string loc = txtEditor.Text;
             if (String.IsNullOrEmpty(txtEditor.Text))
             {
-                new SoundPlayer(".//sound//error.wav").Play();
+
+                // new SoundPlayer(".//sound//error.wav").Play();
+                var errorsound = DailyTool.Properties.Resources.error;
+                new SoundPlayer(errorsound).Play();
             }
             if (!(String.IsNullOrEmpty(txtEditor.Text)))
             {
-                new SoundPlayer(".//sound//Click.wav").Play();
-
+                
                 load.Value = 10;
-            var progress = new Progress<int>(x => load.Value = x);
+                var progress = new Progress<int>(x => load.Value = x);
 
-            formula form = new formula(); // method of conversion
-                                          // string outfile = form.convert_formula(loc); // getting output name
-            string outfile = await Task.Run(() => form.convert_formula(loc, progress));
+                formula form = new formula(); // method of conversion
+                                              // string outfile = form.convert_formula(loc); // getting output name
+                string outfile = await Task.Run(() => form.convert_formula(loc, progress));
                 //successbox successbox1 = new successbox();
-                new SoundPlayer(".//sound//Windows Exclamation.wav").Play();
+                // new SoundPlayer(".//sound//Windows Exclamation.wav").Play();
+                //var Exclmsound = DailyTool.Properties.Resources.Windows_Exclamation;
+                //new SoundPlayer(Exclmsound).Play();
 
                 successbox successbox1 = new successbox(outfile);
-            successbox1.ShowDialog();
-            txtEditor.Clear();
-             load.Value = 0;
-             }
+                successbox1.ShowDialog();
+                txtEditor.Clear();
+                load.Value = 0;
+            }
 
         }
         private void ProgressBar(object sender, RoutedEventArgs e)
@@ -92,8 +100,8 @@ namespace DailyTool
         {
             if (e.LeftButton == MouseButtonState.Pressed)
             {
-                
-                
+
+
             }
         }
     }

@@ -11,18 +11,9 @@ D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.csproj.GenerateRes
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.csproj.CoreCompileInputs.cache
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.exe
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.pdb
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\WPF.Bootstrap.dll
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.csproj.CopyComplete
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\ControlzEx.dll
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\MahApps.Metro.dll
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\Microsoft.Xaml.Behaviors.dll
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\ControlzEx.pdb
 D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\ControlzEx.xml
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\MahApps.Metro.pdb
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\MahApps.Metro.xml
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\Microsoft.Xaml.Behaviors.pdb
 D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\Microsoft.Xaml.Behaviors.xml
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\de\MahApps.Metro.resources.dll
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool_MarkupCompile.lref
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\converter.g.cs
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\converter.baml
@@ -30,6 +21,10 @@ D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.WinForm.successbox
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.WinForm.About.resources
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool_Content.g.cs
 D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\sound\Click.wav
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\sound\error.wav
-D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\sound\Windows Exclamation.wav
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\DailyTool.csprojAssemblyReference.cache
+D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\sound\Click_new.wav
+D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\ControlzEx.dll
+D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\WPF.Bootstrap.dll
+D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\ControlzEx.pdb
+D:\csharp\Desktop App\DailyTool\DailyTool\bin\Debug\Microsoft.Xaml.Behaviors.pdb
