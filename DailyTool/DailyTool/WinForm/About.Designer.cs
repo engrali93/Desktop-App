@@ -1,5 +1,5 @@
 ﻿
-namespace DailyTool.WinForm
+namespace Word_to_Pdf_Converter.WinForm
 {
     partial class About
     {
@@ -78,6 +78,7 @@ namespace DailyTool.WinForm
             this.Name = "About";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About Us";
+            this.Load += new System.EventHandler(this.About_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

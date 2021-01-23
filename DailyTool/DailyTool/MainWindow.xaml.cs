@@ -15,16 +15,17 @@ using System.Windows.Shapes;
 
 using ControlzEx.Theming;
 using System.Diagnostics;
-using DailyTool.WinForm;
+using Word_to_Pdf_Converter.WinForm;
+
 using System.Media;
 using System.ComponentModel;
 
 
-namespace DailyTool
+namespace Word_to_Pdf_Converter
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    /// </summary>j
     public partial class MainWindow : Window
     {
         

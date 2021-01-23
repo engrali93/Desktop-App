@@ -20,10 +20,12 @@ using System.Media;
 using System.IO;
 using Microsoft.Win32;
 using System.Windows.Interop;
-using DailyTool.WinForm;
+//using DailyTool.WinForm;
+using Word_to_Pdf_Converter.WinForm;
 
 
-namespace DailyTool
+
+namespace Word_to_Pdf_Converter
 {
     /// <summary>
     /// Interaction logic for converter.xaml
@@ -68,7 +70,7 @@ namespace DailyTool
             {
 
                 // new SoundPlayer(".//sound//error.wav").Play();
-                var errorsound = DailyTool.Properties.Resources.error;
+                var errorsound = Word_to_Pdf_Converter.Properties.Resources.error;
                 new SoundPlayer(errorsound).Play();
             }
             if (!(String.IsNullOrEmpty(txtEditor.Text)))

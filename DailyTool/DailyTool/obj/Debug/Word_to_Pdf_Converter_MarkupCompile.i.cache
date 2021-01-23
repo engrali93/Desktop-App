@@ -1,20 +1,20 @@
-﻿DailyTool
+﻿Word_to_Pdf_Converter
 
 
 winexe
 C#
 .cs
 D:\csharp\Desktop App\DailyTool\DailyTool\obj\Debug\
-DailyTool
+Word_to_Pdf_Converter
 none
 false
 DEBUG;TRACE
 D:\csharp\Desktop App\DailyTool\DailyTool\App.xaml
 2533291661
 3502682751
-111845963076
+121003603709
 23-1091973922
 converter.xaml;MainWindow.xaml;
 
-False
+True
 

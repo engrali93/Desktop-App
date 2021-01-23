@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-namespace DailyTool.WinForm
+namespace Word_to_Pdf_Converter.WinForm
 {
     public partial class successbox : Form
     {
@@ -19,7 +19,7 @@ namespace DailyTool.WinForm
         public successbox(string dir)
         {
             InitializeComponent();
-            new SoundPlayer(DailyTool.Properties.Resources.Windows_Exclamation).Play();
+            new SoundPlayer(Word_to_Pdf_Converter.Properties.Resources.Windows_Exclamation).Play();
             locc = dir;
         }
 

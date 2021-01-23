@@ -8,7 +8,7 @@ using System.IO;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 
-namespace DailyTool
+namespace Word_to_Pdf_Converter
 {
     class formula
     {

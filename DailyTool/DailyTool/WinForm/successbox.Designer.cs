@@ -1,5 +1,5 @@
 ﻿
-namespace DailyTool.WinForm
+namespace Word_to_Pdf_Converter.WinForm
 {
     partial class successbox
     {
